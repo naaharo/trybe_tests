@@ -6,9 +6,9 @@ _“Trybe é a escola do futuro para quem quer melhorar de vida e construir uma 
 
 O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias avançadas e habilidades comportamentais.
 
-## Fundamentos de Desenvolvimento Web 
+## Fundamentos de Desenvolvimento Web :hourglass_flowing_sand:
 
-##### Bloco 1: Introdução - Unix e Shell :hourglass_flowing_sand:
+##### Bloco 1: Introdução - Unix e Shell 
 
 - [X] 1-3: _Unix e Shell- Parte 1_
 - [X] 1-4: _Unix e Shell- Parte 2_
