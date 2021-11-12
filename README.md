@@ -96,7 +96,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 
 - [ ] 12-1: _Componentes com status_
 - [ ] 12-2: _Eventos e formas na reação_
-- [ ] 12-3: _[Projeto - Biblioteca de cartões de filme com estado]() _
+- [ ] 12-3: _[Projeto - Biblioteca de cartões de filme com estado]()_
 
 ##### Bloco 13: Reagir
 
@@ -204,7 +204,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 
 ##### Bloco 29: NodeJS
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token) _
+- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
 - [ ] 29-2: _NodeJS - Carregar arquivos com Multer_
 - [ ] 29-3: _[Projeto - Cookmaster V2]()_
 
