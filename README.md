@@ -8,14 +8,14 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 
 ## Fundamentos de Desenvolvimento Web 
 
-##### Bloco 1: Introdução - Unix e Shell
+##### Bloco 1: Introdução - Unix e Shell :hourglass_flowing_sand:
 
 - [X] 1-3: _Unix e Shell- Parte 1_
 - [X] 1-4: _Unix e Shell- Parte 2_
 
 ##### Bloco 2: Git e GitHub
 
-- [X] 2-1: _O que é e para que serve? _
+- [X] 2-1: _O que é e para que serve?_
 - [ ] 2-2: _Compreendendo os comandos_
 - [ ] 2-3: _Internet - Compreendendo como funciona_
 
@@ -84,11 +84,11 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 - [ ] 10-3: _Jest - Simulando comportamentos_
 - [ ] 10-4: _[Projeto - Montagem e Simulação de Jest]()_
 
-## Desenvolvimento de front-end: hourglass_flowing_sand:
+## Desenvolvimento de front-end
 
 ##### Bloco 11: Introdução - Reação
 
-- [ ] 11-1: _'Olá, mundo! ' não reaja! _
+- [ ] 11-1: _'Olá, mundo! ' não reaja!_
 - [ ] 11-2: _Componentes de reação_
 - [ ] 11-3: _[Projeto - Biblioteca de Cartões de Filme]()_
 
@@ -107,7 +107,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 
 ##### Bloco 14: Metodologias
 
-- [ ] 14-1: _Metodologias Ã ?? geis_
+- [ ] 14-1: _Metodologias Ágeis_
 - [ ] 14-2: _[Projeto - Loja online de front-end]()_
 
 ##### Bloco 15: Testes de reação
@@ -140,7 +140,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 
 - [ ] 19-1: _[Projeto - Aplicativo de receita]()_
 
-## Desenvolvimento de back-end: hourglass_flowing_sand:
+## Desenvolvimento de back-end
 
 ##### Bloco 20: Introdução - Bancos de dados relacionais
 
@@ -236,7 +236,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 
 - [ ] 34-1: _[Projeto - Trybeer V2]()_
 
-## Ciência da Computação: hourglass_flowing_sand:
+## Ciência da Computação
 
 ##### Bloco 35: Introdução - Ciência da Computação
 
