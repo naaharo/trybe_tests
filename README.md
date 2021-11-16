@@ -1,1 +1,1 @@
-###### Just a test to understand how GIT/GitHub works
+# Just a test to understand how GIT/GitHub works
