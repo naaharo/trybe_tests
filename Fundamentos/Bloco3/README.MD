@@ -1,2 +1,2 @@
 # Introdução à HTML e CSS
-O Bloco 3 mostra o básico da estruturação de uma página.
+O Bloco 3 mostra o básico da estruturação e estilização de uma página.
