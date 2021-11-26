@@ -113,3 +113,44 @@ if (somaAng===true && num15>0 && num25>0 && num35>0){
  }else{
    console.log ("#####ERROR##### INVALID INPUT");
  }
+
+ /* Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
+Porcentagem >= 90 -> A
+Porcentagem >= 80 -> B
+Porcentagem >= 70 -> C
+Porcentagem >= 60 -> D
+Porcentagem >= 50 -> E
+Porcentagem < 50 -> F
+O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100. */
+console.log ("\n*********************************************************************\nExercício 7\n");
+
+/* Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false . */
+console.log ("\n*********************************************************************\nExercício 8\n");
+
+/* Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false . */
+console.log ("\n*********************************************************************\nExercício 9\n");
+
+/* Escreva um programa que se inicie com dois valores em duas constantes diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+Atente que, sobre o custo do produto, incide um imposto de 20%.
+Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
+O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
+valorCustoTotal = valorCusto + impostoSobreOCusto
+lucro = valorVenda - valorCustoTotal (lucro de um produto) */
+console.log ("\n*********************************************************************\nExercício 10\n");
+
+/* Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido.
+A notação para um salário de R$1500,10, por exemplo, deve ser 1500.10. Para as faixas de impostos, use as seguintes referências:
+
+INSS (Instituto Nacional do Seguro Social)
+Salário bruto até R$ 1.556,94: alíquota de 8%
+Salário bruto de R$ 1.556,95 a R$ 2.594,92: alíquota de 9%
+Salário bruto de R$ 2.594,93 a R$ 5.189,82: alíquota de 11%
+Salário bruto acima de R$ 5.189,82: alíquota máxima de R$ 570,88
+
+IR (Imposto de Renda)
+Até R$ 1.903,98: isento de imposto de renda
+De R$ 1.903,99 a 2.826,65: alíquota de 7,5% e parcela de R$ 142,80 a deduzir do imposto
+De R$ 2.826,66 a R$ 3.751,05: alíquota de 15% e parcela de R$ 354,80 a deduzir do imposto
+De R$ 3.751,06 a R$ 4.664,68: alíquota de 22,5% e parcela de R$ 636,13 a deduzir do imposto
+Acima de R$ 4.664,68: alíquota de 27,5% e parcela de R$ 869,36 a deduzir do imposto. */ 
+console.log ("\n*********************************************************************\nExercício 11\n");
