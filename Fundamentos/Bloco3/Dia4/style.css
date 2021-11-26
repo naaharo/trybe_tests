@@ -23,6 +23,9 @@ aside, article {
   padding: 40px;
   border-radius: 60px;
 }
+section {
+  margin: ; 
+}
 aside {
   background-color: #2d333b;
   display: inline-block;
