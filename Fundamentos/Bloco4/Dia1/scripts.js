@@ -82,3 +82,34 @@ if (somaAng===true && num15>0 && num25>0 && num35>0){
 }else{
   console.log ("#####ERROR##### INVALID INPUT")
 }
+
+/* Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz. Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
+
+ Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.*/
+ console.log ("\n*********************************************************************\nExercício 6\n");
+
+ let peca = "Queen";
+
+ peca = peca.toLowerCase ();
+
+ if (peca==="rei" || peca==="king"){
+   console.log ("Uma casa para qualquer direção. | One square in any direction.");
+
+ }else if (peca==="rainha" || peca==="queen"){
+   console.log ("Qualquer direção, qualquer número de casas. | Any direction, any numbers of squares");
+
+ }else if (peca==="torre" || peca==="rook"){
+   console.log ("Horizontal ou vertical, qualquer número de casas. | Horizontally or vertically, any number of squares.");
+
+ }else if (peca==="bispo" || peca==="bishop"){
+   console.log ("Diagonal, qualquer número de casas. | Diagonally any number of squares.");
+
+ }else if (peca==="cavalo" || peca==="knight"){
+   console.log ("Forma de 'L', pula sobre outras peças. | In an ‘L’ shape’, able to jump over other pieces.");
+
+ }else if (peca==="peao" || peca==="peão" || peca==="pawn"){
+   console.log ("Vertical, uma casa (duas se não tiver se movido ainda). Come na diagonal frontal. | Vertically forward one square (two squares if they have not yet moved). capture one square diagonally in a forward direction.");
+
+ }else{
+   console.log ("#####ERROR##### INVALID INPUT");
+ }
