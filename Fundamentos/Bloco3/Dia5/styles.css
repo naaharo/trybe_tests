@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+#menu a {
+  text-decoration: none;
+  color: #4d9967;
+  font-style: italic;
+}
+figcaption a {
+  text-decoration: none;
+  color: #539bf5;
+  font-style: italic;
+}
+#licoes_aprendidas li {
+  list-style-type: upper-roman;
+}
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: rgb(236, 128, 128);
+  padding: 20px 70px;
+  border-radius: 200px;
+  margin-left: 450px;
+}
+#titulo {
+  text-align: center;
+}
+#menu {
+  background-color: rgb(168, 70, 24);
+  padding: 3px;
+  border-radius: 50px;
+}
+#menu li {
+  display: inline-block;
+  margin: 0 20px;
+  font-weight: bold;
+}
+main {
+  background-color: rgb(230, 179, 121);
+  margin-top: 250px;
+  max-width: 1000px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50px;
+}
+figure {
+  text-align: center;
+  padding: 50px;
+  background-color: #e8f34e;
+  border-radius: 200px;
+}
+#licoes_aprendidas, #licoes_a_aprender {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: aqua;
+  padding: 20px 10px 20px 50px;
+  border-radius: 50px;
+}
+#minha_foto {
+  border-radius: 100%;
+}
+figcaption {
+  font-weight: bold;
+}
+summary, #licoes_a_aprender li {
+  font-weight: bold;
+}
+#licoes_aprendidas {
+  margin-right: 70px;
+  margin-left: 20px;
+  max-width: 400px;
+}
+#licoes_a_aprender li {
+  list-style: circle;
+}
+#artigo {
+  background-color: #268fcc;
+  padding: 10px;
+  border-radius: 50px;
+}
+#oinicio, #durante {
+  margin-left: 30px;
+  max-width: 400px;
+  display: inline-block;
+  background-color: rgb(84, 194, 139);
+  padding: 10px;
+  border-radius: 50px;
+}
+#wow {
+  display: inline-block;
+  background-color: aquamarine;
+  max-width: 260px;
+  vertical-align: middle;
+  padding: 20px 40px;
+  margin-left: 20px;
+  border-radius: 50px;
+}
+#rodape {
+  text-align: center;
+  font-size: 14px;
+  background-color: rgb(240, 217, 12);
+  padding: 5px;
+  border-radius: 50px;
+}
