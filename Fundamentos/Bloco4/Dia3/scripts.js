@@ -51,7 +51,7 @@ for (let i3b=num13-2; i3b>=0; i3b--){
 /* 4- Depois, faça uma pirâmide com n asteriscos de base: */
 console.log ("\n\n****************************************************************\nExercício 4:\n");
 
-let num14 = 5;
+let num14 = 7;
 let arr14 = [];
 let top14 = (num14+1)/2
 
@@ -65,8 +65,48 @@ for (let i4a=1; i4a<=num14; i4a++){
 console.log (arr14.join(""));
 
 for (let i4b=1; i4b<=top14-1; i4b++){
-  let ast = top14-1;
-  arr14[ast-i4b] = "*";
-  arr14[ast+i4b] = "*";
+  let ast4 = top14-1;
+  arr14[ast4-i4b] = "*";
+  arr14[ast4+i4b] = "*";
   console.log (arr14.join(""));
+}
+
+
+/* EXERCÌCIOS BONUS */
+console.log ("\n\n****************************************************************\nEXERCÌCIOS BONUS\n****************************************************************");
+
+
+/* Faça uma pirâmide com n asteriscos de base que seja vazia no meio. Assuma que o valor de n será sempre ímpar: */
+console.log ("\n\nExercício Bônus 1:\n");
+
+let num15 = 7;
+let arr15 = [];
+let top15 = (num15+1)/2
+
+for (let i5a=1; i5a<=num15; i5a++){
+  if (i5a!==top15){
+    arr15.push (" ");
+  }else{
+    arr15.push ("*");
+  }
+}
+console.log (arr15.join(""));
+
+let cont = 0
+
+for (let i5b=1; i5b<=top15-1; i5b++){
+  if (i5b!==top15-1){
+    let ast5 = top15-1;
+    arr15[ast5-i5b] = "*";
+    arr15[ast5+i5b] = "*";
+    arr15[ast5+cont] = " ";
+    arr15[ast5-cont] = " ";
+    cont ++
+    console.log (arr15.join(""));
+  }else{
+    for (let i5c=0; i5c<num15; i5c++){
+      arr15[i5c] = "*";
+    }
+    console.log (arr15.join(""));
+  }  
 }
