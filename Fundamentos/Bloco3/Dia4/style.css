@@ -1,0 +1,37 @@
+body {
+    background-color: #181818;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #adbac7;
+}
+nav {
+  background-color: #212121;
+}
+nav ul li {
+  display: inline-block;
+}
+p a {
+  color: #539bf5;
+  font-style: italic;
+  text-decoration: none;        
+}
+main {
+  background-color: #212121;
+  margin: 0 60px;
+}
+aside, article {
+  padding: 40px;
+  border-radius: 60px;
+}
+section {
+  margin: ; 
+}
+aside {
+  background-color: #2d333b;
+  display: inline-block;
+}
+article {
+  background-color: #2d333b;
+  display: inline-block;
+  margin: 40px;
+}
