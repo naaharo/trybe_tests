@@ -110,3 +110,7 @@ for (let i5b=1; i5b<=top15-1; i5b++){
     console.log (arr15.join(""));
   }  
 }
+
+
+/* 6- Faça um programa que diz se um número definido numa variável é primo ou não. */
+console.log ("\n\n****************************************************************\nExercício Bônus 2:\n");
