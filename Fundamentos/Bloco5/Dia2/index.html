@@ -70,32 +70,32 @@
       /* 3. Adicione a tag section com a classe center-content como filho da tag main criada no passo 2 */
       let section1 = document.createElement('section');
       section1.className = 'center-content';
-      document.querySelector('main').appendChild(section1);
+      main.appendChild(section1);
 
       /* 4. Adicione a tag p como filho do section criado no passo 3 e coloque algum texto */
       let p1 = document.createElement('p');
       p1.innerText = 'Esse é o parágrafo localizado na section 1.';
-      document.querySelector('.center-content').appendChild(p1);
+      section1.appendChild(p1);
 
       /* 5. Adicione a tag section com a classe left-content como filho da tag main criada no passo 2 */
       let section2 = document.createElement('section');
       section2.className = 'left-content';
-      document.querySelector('main').appendChild(section2);
+      main.appendChild(section2);
 
       /* 6. Adicione a tag section com a classe right-content como filho da tag main criada no passo 2 */
       let section3 = document.createElement('section');
-      section2.className = 'right-content';
-      document.querySelector('main').appendChild(section3);
+      section3.className = 'right-content';
+      main.appendChild(section3);
 
       /* 7. Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image. Esse elemento deve ser filho do section criado no passo 5 */
-     /*  let figure = document.createElement('figure');
-      figure.innerHTML = '<img src="https://picsum.photos/200" alt="imagem do exercício 7">\n<figcaption>Imagem do Exercício 7</figcaption>';
-      figure.className = 'small-image';
-      document.querySelector('.left-content').appendChild(figure); */
+      let img = document.createElement('img');
+      img.src = 'https://picsum.photos/200';
+      img.className = 'small-image';
+      section2.appendChild(img);
 
       /* 8. Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6 */
       let unList = document.createElement('ul');
-      document.querySelector('.right-content').appendChild(unList);
+      section3.appendChild(unList);
 
       let li = [
         'Um',
@@ -114,7 +114,7 @@
 
         let number = document.createElement('li');
         number.innerText = listItens;
-        document.querySelector('ul').appendChild(number);
+        unList.appendChild(number);
       }
 
       /* 9. Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2 */
@@ -122,7 +122,7 @@
         subTitle = document.createElement('h3');
 
         subTitle.innerText = `Texto com a tag "h3" n.${i2}`;
-        document.querySelector('main').appendChild(subTitle);
+        main.appendChild(subTitle);
       }
     </script>
   </body>
