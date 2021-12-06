@@ -117,12 +117,22 @@
         unList.appendChild(number);
       }
 
-      /* 9. Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2 */
+      /* 9. Adicione 3 tags `h3` , todas sendo filhas do `main` criado no passo 2 */
       for (let i2 = 1; i2 <= 3; i2 += 1) {
-        subTitle = document.createElement('h3');
+        let subTitle = document.createElement('h3');
 
         subTitle.innerText = `Texto com a tag "h3" n.${i2}`;
         main.appendChild(subTitle);
+      }
+
+      /* ********PARTE 2********* */
+
+      /* 1. Adicione a classe `title` na tag `h1` criada */
+      document.querySelector('h1').className = 'title';
+
+      /* 2. Adicione a classe `description` nas 3 tags `h3` criadas */
+      for (key in document.querySelectorAll('h3')) {
+        document.querySelectorAll('h3')[key].className = 'description';
       }
     </script>
   </body>
