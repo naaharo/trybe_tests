@@ -83,17 +83,26 @@ dezHolidays('Feriados');
  */
 
 function evidenceHolidays() {
-  let holidays = [];
-  for (let holi in document.querySelectorAll('.holidays')) {
-    holidays.push(document.querySelector('.holidays')[holi]);
-  }
+  let holidaysButton = document.querySelector('#btn-holiday');
+  let allHolidays = document.querySelectorAll('.holiday');
 
-  if (holidays[holi].style.backgroundColor === "rgb(238,238,238)") {
-    holidays[holi].style.backgroundColor = "rgb(21, 248, 97)";
-  } else {
-    holidays[holi].style.backgroundColor = "rgb(238,238,238)";
-  }
-}
+  holidaysButton.addEventListener('click', function() {
+    for (let holi = 0; holi < allHolidays.length; holi += 1) {
+      if (allHolidays[holi].style.backgroundColor === 'rgb(21, 248, 97)') {
+        allHolidays[holi].style.backgroundColor = 'rgb(238,238,238)';
+      } else {
+        allHolidays[holi].style.backgroundColor = 'rgb(21, 248, 97)';
+      }
+    }
+  })
+};
 
-// document.querySelector('#btn-holiday').addEventListener('click', evidenceHolidays);
 evidenceHolidays();
+
+/* 
+4. Implemente uma função que receba como parâmetro a string "Sexta-feira" e crie dinamicamente um botão com o nome "Sexta-feira".
+
+  -Adicione a este botão o ID "btn-friday" .
+
+  -Adicione este botão como filho/filha da tag <div> com classe "buttons-container".
+  */
