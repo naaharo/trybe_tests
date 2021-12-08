@@ -1,0 +1,11 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+#head {
+  text-align: center;
+  padding: 2px 0px;
+}
+.section {
+  display: inline-block;
+  max-width: 400px;
+}
