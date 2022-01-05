@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício - Bloco6|Dia1</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <head>
+    <h1>Exercícios - Bloco6|Dia1</h1>
+    <h2>Forms</h2>
+  </head>
+  <form action method="get">
+    <!-- Dados Pessoais -->
+    <fieldset>
+      <legend>
+        <h3>Dados Pessoais</h3>
+      </legend>
+      <!-- Nome -->
+      <label for="name">
+        <div class="">
+          Nome Completo:
+        </div>
+        <input type="text" id="name" maxlength="40" required placeholder="Escreva aqui seu nome">
+      </label>
+      <!-- E-Mail -->
+      <label for="email">
+        <div>
+          E-mail:
+        </div>
+        <input type="email" id="email" maxlength="50" required placeholder="Escreva aqui seu e-mail">
+      </label>
+      <!-- CPF -->
+      <label for="cpf">
+        <div>
+          CPF:
+        </div>
+        <input type="text" id="cpf" maxlength="11" required placeholder="Digite aqui seu CPF">
+      </label>
+      <!-- Endereço -->
+      <label for="address">
+        <div>
+          Endereço:
+        </div>
+        <input type="text" id="address" maxlength="200" required placeholder="Escreva aqui seu endereço">
+      </label>
+      <!-- Cidade -->
+      <label for="town">
+        <div>
+          Cidade:
+        </div>
+        <input type="text" id="town" maxlength="28" required placeholder="Escreva aqui sua cidade">
+      </label>
+      <!-- Estado -->
+      <label for="state">
+        <div>
+          Estado:
+        </div>
+        <select name="state" id="state" required></select>
+      </label>
+      <!-- Tipo de Moradia -->
+      <div>
+        <div>
+          Mora em:
+        </div>
+        <label for="house">
+          <input type="radio" id="house" name="homeType" required>Casa
+        </label>
+        <label for="apt">
+          <input type="radio" id="apt" name="homeType" required>Apartamento
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>
+        <h3>Último Emprego</h3>
+      </legend>
+      <!-- Currículo -->
+      <label for="resume">
+        <div>
+          Resumo do Currículo:
+        </div>
+        <textarea name="resumo" id="resume" cols="30" rows="5" required></textarea>
+      </label>
+      <!-- Último Cargo -->
+      <label for="post">
+        <div>
+          Último Cargo:
+        </div>
+        <input type="text" id="post" required maxlength="40" placeholder="Escreva aqui seu cargo">
+      </label>
+      <!-- Descrição do Cargo -->
+      <label for="postDescription">
+        <div>
+          Descrição do Cargo Mencionado Acima:
+        </div>
+        <input type="text" id="postDescription" required maxlength="500" placeholder="Escreva aqui a descrição">
+      </label>
+      <!-- Data de Início -->
+      <label for="firstDay">
+        <div>
+          Data de Início:
+        </div>
+        <input type="date" id="firstDay" required>
+      </label>
+    </fieldset>
+  </form>
+</body>
+<script src="script.js"></script>
+</html>

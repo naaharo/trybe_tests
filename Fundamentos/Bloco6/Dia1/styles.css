@@ -1,0 +1,12 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin:10%;
+  background-color: azure;
+}
+fieldset {
+  background-color: aliceblue;
+  display: inline-block;
+}
+label input, select, textarea {
+  margin-bottom: 10px;
+}
