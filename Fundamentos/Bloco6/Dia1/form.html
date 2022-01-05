@@ -26,7 +26,7 @@
       </legend>
       <!-- Nome -->
       <label for="name">
-        <div class="">
+        <div>
           Nome Completo:
         </div>
         <input type="text" id="name" maxlength="40" required placeholder="Escreva aqui seu nome">
@@ -64,7 +64,9 @@
         <div>
           Estado:
         </div>
-        <select name="state" id="state" required></select>
+        <select name="state" id="state" required>
+          <option value="none">Selecione seu Estado</option>
+        </select>
       </label>
       <!-- Tipo de Moradia -->
       <div>
@@ -79,6 +81,7 @@
         </label>
       </div>
     </fieldset>
+    <!-- Último Emprego -->
     <fieldset>
       <legend>
         <h3>Último Emprego</h3>
@@ -88,7 +91,7 @@
         <div>
           Resumo do Currículo:
         </div>
-        <textarea name="resumo" id="resume" cols="30" rows="5" required></textarea>
+        <textarea name="resumo" id="resume" required maxlength="1000"></textarea>
       </label>
       <!-- Último Cargo -->
       <label for="post">
@@ -109,7 +112,7 @@
         <div>
           Data de Início:
         </div>
-        <input type="date" id="firstDay" required>
+        <input type="text" id="firstDay" required placeholder="dd/mm/aaaa">
       </label>
     </fieldset>
   </form>

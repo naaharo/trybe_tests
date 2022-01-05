@@ -2,11 +2,19 @@ body {
   font-family: 'Roboto', sans-serif;
   margin:10%;
   background-color: azure;
+  text-align: center;
 }
 fieldset {
   background-color: aliceblue;
-  display: inline-block;
+  margin: 0 35%;
+  border-radius: 20px;
 }
 label input, select, textarea {
   margin-bottom: 10px;
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+  resize: none;
 }
