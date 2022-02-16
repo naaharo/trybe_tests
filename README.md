@@ -6,7 +6,7 @@ _“Trybe é a escola do futuro para quem quer melhorar de vida e construir uma 
 
 O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias avançadas e habilidades comportamentais.
 
-## Fundamentos de Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos de Desenvolvimento Web :heavy_check_mark:
 
 #### Bloco 1: Unix & Bash 
 
@@ -69,21 +69,21 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, aborda introdu
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
-- [ ] 8-6: _[Projeto - Zoo functions]()_
+- [x] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
+- [x] 8-6: _[Projeto - Zoo functions]()_
 
 #### Bloco 9: JavaScriṕt e Testes Assíncronos
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
-- [ ] 9-3: _Jest - Testes Assíncronos_
-- [ ] 9-4: _[Projeto - Carrinho de Compras]()_
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [x] 9-3: _Jest - Testes Assíncronos_
+- [x] 9-4: _[Projeto - Carrinho de Compras]()_
 
-## Desenvolvimento Front-end
+## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 #### Bloco 10: Introdução à React
 
-- [ ] 10-1: _'Hello, world!' no React!_
+- [x] 10-1: _'Hello, world!' no React!_
 - [ ] 10-2: _Componentes React_
 - [ ] 10-3: _[Projeto - Sistema Solar]()_
 
